@@ -1,0 +1,492 @@
+body {
+    background-image: url(../images/lights.webp);
+    background-position: top;
+    max-width: 100%;
+    
+}
+
+.navbar {
+    padding-left: 10px;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.i {
+    padding-left: 7px;
+    color: rgb(255, 211, 66);
+}
+
+/* FADE IN ANIMATIONS */
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slowFade {
+    0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}   
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes slowFadeTwo {
+    0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}  
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* ----------------- MAIN - INDEX PAGE CSS ----------------- */
+/* USED IN - NAV LINKS */
+h2 {
+    padding-top: 10px;
+    padding-right: 12px;
+    font-family: Poppins;
+    color: rgb(255, 211, 66);
+}
+
+/* USED IN - INDEX TITLE / WELCOME */
+h3 {
+    font-family: Poppins; 
+    color: rgb(255, 211, 66);
+}
+
+/* USED IN - FOOTERS ON EACH PAGE */
+p {
+    font-family: Poppins; 
+    color: rgb(255, 211, 66);
+    text-align: center;
+}
+
+.hello-div {
+    padding-left: 2rem;
+    padding-top: 20rem;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.name-div {
+    padding-left: 2rem;
+    opacity: 1;
+	animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.sentence-div {
+    padding-left: 2rem;
+    opacity: 1;
+	animation-name: slowFadeTwo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.index-footer {
+    padding-top: 23rem;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+   
+
+/* ----------------- ABOUT ME PAGE CSS ----------------- */
+    /* USED FOR ALL PAGE TITLES */
+h1 {
+    font-family: Poppins; 
+    color: rgb(255, 211, 66);
+    text-align: center;
+}
+
+.about-title {
+    padding-top: 1rem;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.projects-title {
+    padding-top: 1rem;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+
+/* ----------------- EXPERIENCE PAGE CSS ----------------- */
+.experience-title {
+    padding-top: 1rem;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+h4 {
+    font-family: Poppins; 
+    color: rgb(255, 211, 66);
+    padding-bottom: 5px ;
+ 
+}
+
+.program-div {
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.experience-intro {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    
+}
+
+.info-div {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ae-section {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.svp-section {
+    opacity: 1;
+	animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-bottom: 2rem;
+}
+
+.cinema-section {
+    opacity: 1;
+	animation-name: slowFadeTwo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.svp-div {
+    padding-top: 1rem;
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 1400px;   
+    
+  }
+
+
+.experience-footer {
+    padding-top: 3rem;
+}
+
+
+/* AFTER EFFECTS PROGRESS BAR */
+.ae-progress {
+    animation: AEload 3s normal forwards;
+    border-radius: 100px;
+    background: rgb(255, 211, 66);
+    height: 60px;
+    width: 0;
+}
+  
+@keyframes AEload {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+
+/* SONY VEGAS PRO PROGRESS BAR */
+.svp-progress {
+    animation: SVPload 3s normal forwards;
+    border-radius: 100px;
+    background: rgb(255, 211, 66);
+    height: 30px;
+    width: 0;
+}
+
+  
+@keyframes SVPload {
+    0% { width: 0; }
+    100% { width: 88%; }
+}
+
+
+/* CINEMA 4D PROGRESS BAR */
+.cinema-progress {
+    animation: CinemaLoad 3s normal forwards;
+    border-radius: 100px;
+    background: rgb(255, 211, 66);
+    height: 30px;
+    width: 0;
+}
+
+  
+@keyframes CinemaLoad {
+    0% { width: 0; }
+    100% { width: 40%; }
+}
+
+
+/* ----------------- PROJECT PAGE CSS ----------------- */
+h5 {
+    font-family: Poppins;
+    color: rgb(255, 211, 66);
+}
+
+.element-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.project-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.project-examples {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.element-title {
+    padding-top: 4rem;
+}
+
+.element-examples {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.element-examples-two {
+    padding-top: 2rem;
+}
+
+.desc {
+    padding-top: 1rem;
+}
+
+.card-btns {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.project-btns {
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+.card-body {
+    background-color: rgb(28, 28, 28);
+    padding: 2rem;
+}
+
+img {
+    width: 580px;
+    max-width: 100%;  
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s; 
+    
+}
+
+
+/* ----------------- WANDA STILLS PAGE CSS ----------------- */
+.wandaStills-title {
+    padding-top: 1rem;
+}
+
+.wandaStills-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.wandaStills-section-two {
+    padding-top: 1rem;
+}
+
+.wandaStills-section-three {
+    padding-top: 1rem;
+}
+
+.wandaStills-section-four {
+    padding-top: 1rem;
+}
+
+.wandaStills-one {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.wandaStills-two {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.wandaStills-three {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.wandaStills-four {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.base-footer {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.back-btn {
+    padding-left: 2rem;
+    padding-bottom: 15px;
+}
+
+/* ----------------- PETER STILLS PAGE CSS ----------------- */
+.peterStills-title {
+    padding-top: 1rem;
+}
+
+.peterStills-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+.peterStills-section-two {
+    padding-top: 1rem;
+}
+
+.peterStills-section-three {
+    padding-top: 1rem;
+}
+
+.peterStills-section-four {
+    padding-top: 1rem;
+}
+
+.peterStills-one {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.peterStills-two {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.peterStills-three {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.peterStills-four {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
