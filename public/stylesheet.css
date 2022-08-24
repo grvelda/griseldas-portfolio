@@ -368,6 +368,11 @@ h5 {
     padding-top: 1rem;
 }
 
+.card-btns-three {
+    padding-left: 7rem;
+    padding-top: 1rem;
+}
+
 .project-btns {
     padding-top: 1rem;
     padding-left: 5rem;
@@ -629,9 +634,8 @@ img {
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 1s;
+    animation-duration: 1s;
     padding-top: 2rem;
-    padding-bottom: 2rem;  
 }
 
 .skill-1 {
@@ -641,7 +645,6 @@ img {
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1s;
-    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -772,7 +775,7 @@ h6 {
 
 .github {
     padding-top: 1rem;
-    padding-left: 10rem;
+    padding-left: 18rem;
 
 }
 
