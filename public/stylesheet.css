@@ -54,6 +54,23 @@ body {
     }
 }
 
+@keyframes slowFadeThree {
+    0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}  
+    50% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 /* ----------------- MAIN - INDEX PAGE CSS ----------------- */
 /* USED IN - NAV LINKS */
@@ -211,6 +228,17 @@ h4 {
 	animation-duration: 1s;
 }
 
+.elementProgram-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    opacity: 1;
+	animation-name: slowFadeThree;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+
+}
+
 .svp-div {
     padding-top: 1rem;
 }
@@ -230,7 +258,7 @@ h4 {
 
 
 .experience-footer {
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 
 
@@ -322,7 +350,6 @@ h5 {
     padding-bottom: 2rem;
 }
 
-
 .element-examples-two {
     padding-top: 2rem;
 }
@@ -333,6 +360,11 @@ h5 {
 
 .card-btns {
     padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.card-btns-two {
+    padding-left: 8rem;
     padding-top: 1rem;
 }
 
@@ -356,7 +388,6 @@ img {
 	animation-duration: 1s; 
     
 }
-
 
 /* ----------------- WANDA STILLS PAGE CSS ----------------- */
 .wandaStills-title {
@@ -387,7 +418,6 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 
 .wandaStills-two {
@@ -397,7 +427,6 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 
 .wandaStills-three {
@@ -407,7 +436,6 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 
 .wandaStills-four {
@@ -436,8 +464,7 @@ img {
 
 .peterStills-section {
     padding-left: 2rem;
-    padding-right: 2rem;
-    
+    padding-right: 2rem;  
 }
 
 .peterStills-section-two {
@@ -459,7 +486,6 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 
 .peterStills-two {
@@ -469,7 +495,6 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 
 .peterStills-three {
@@ -479,7 +504,6 @@ img {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 
 .peterStills-four {
@@ -490,3 +514,277 @@ img {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+/* ----------------- HOMELANDER STILLS PAGE CSS ----------------- */
+.homelanderStills-title {
+    padding-top: 1rem;
+}
+
+.homelanderStills-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.homelanderStills-section-two {
+    padding-top: 1rem;
+}
+
+.homelanderStills-section-three {
+    padding-top: 1rem;
+}
+
+.homelanderStills-section-four {
+    padding-top: 1rem;
+}
+
+.homelanderStills-one {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.homelanderStills-two {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.homelanderStills-three {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.homelanderStills-four {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ----------------- ABOUT ME PAGE CSS ----------------- */
+.left-div {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.right-div {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    padding-top: 1rem;
+
+}
+
+.top-div {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    padding-top: 1rem;
+
+}
+.aboutMe-section {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.intro {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.skills {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.skills-title {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-top: 2rem;
+    padding-bottom: 2rem;  
+}
+
+.skill-1 {
+    padding-bottom: 1rem;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.skill-2 {
+    padding-bottom: 1rem;
+    opacity: 1;
+	animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-bottom: 2rem;
+}
+
+.skill-3 {
+    opacity: 1;
+	animation-name: slowFadeTwo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-bottom: 2rem;
+}
+
+.cat-title {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.my-icon {
+    padding-left: 4rem;
+}
+
+.icon {
+    clip-path: circle(50% at 50% 50%);
+    width: 200px;
+} 
+
+.facts {
+    border-radius: 1rem;
+    background-color: rgba(73, 73, 73, 0.508);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about-footer {
+   padding-top: 100rem;
+   padding-bottom: 2rem;
+}
+
+.cat-pics {
+    padding-left: 8rem;
+}
+
+.cat {
+    width: 350px;
+}
+
+.cat-picOne {
+    padding-bottom: 1rem;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .right-div, .left-div, .top-div {
+      width: 100%;
+    }
+  }
+
+/* ----------------- CONTACT ME PAGE CSS ----------------- */
+.contact-title {
+    padding-top: 1rem;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.contact-section {
+    padding-top: 8rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+.contact-desc {
+    padding-top: 3rem ;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.email {
+    padding-top: 1rem;
+    padding-left: 24rem;
+    opacity: 1;
+	animation-name: slowFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+
+}
+
+.socialMedia-title {
+    padding-top: 3em;
+    opacity: 1;
+	animation-name: slowFadeTwo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+h6 {
+    float: left;
+    font-family: Poppins;
+    color: rgb(255, 211, 66);
+    padding-right: 4rem;
+}
+
+.github {
+    padding-top: 1rem;
+    padding-left: 10rem;
+
+}
+
+.socials {
+    opacity: 1;
+	animation-name: slowFadeTwo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.contact-footer {
+    padding-top: 13rem;
+}
+
